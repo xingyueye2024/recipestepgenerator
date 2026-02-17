@@ -1,0 +1,364 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "generator",
+      "showcase",
+      "introduce",
+      "usage",
+      "features",
+      "testimonials",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "几秒内将美食照片转化为分步烹饪教程图片",
+        "highlight_text": "几秒内",
+        "description": "AI 驱动的食谱步骤生成器，将您的美食照片转化为专业的烹饪教程图片。<br/>支持 500+ 烹饪技法，多种风格和导出格式。",
+        "tip": "无需信用卡 - 免费生成 2 套食谱步骤",
+        "buttons": [
+          {
+            "title": "免费生成食谱步骤",
+            "icon": "Zap",
+            "url": "#generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "查看示例",
+            "icon": "ImageIcon",
+            "url": "#showcase",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": true,
+        "avatars_tip": "10,000+ 美食创作者正在使用",
+        "show_award": false,
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "食谱步骤生成器预览",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "/imgs/bg/tree.jpg",
+          "alt": "hero background"
+        }
+      },
+      "generator": {
+        "block": "recipe-generator",
+        "id": "generator"
+      },
+      "showcase": {
+        "block": "showcases-flow",
+        "id": "showcase",
+        "title": "食谱步骤示例",
+        "description": "看看 AI 如何将美食照片转化为专业的分步烹饪教程。",
+        "items": [
+          {
+            "title": "烤牛排",
+            "description": "4 步骤 | 16:9 横版 | 专业风格",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "烤牛排食谱步骤"
+            },
+            "label": "4 步骤",
+            "button": {
+              "title": "试试这个"
+            }
+          },
+          {
+            "title": "自制汉堡",
+            "description": "6 步骤 | 1:1 方形 | 休闲风格",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "自制汉堡食谱步骤"
+            },
+            "label": "6 步骤",
+            "button": {
+              "title": "试试这个"
+            }
+          },
+          {
+            "title": "奶油培根意面",
+            "description": "5 步骤 | 9:16 竖版 | 鲜艳风格",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "奶油培根意面食谱步骤"
+            },
+            "label": "5 步骤",
+            "button": {
+              "title": "试试这个"
+            }
+          },
+          {
+            "title": "巧克力蛋糕",
+            "description": "8 步骤 | 16:9 横版 | 极简风格",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "巧克力蛋糕食谱步骤"
+            },
+            "label": "8 步骤",
+            "button": {
+              "title": "试试这个"
+            }
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "将美食照片转化为专业食谱步骤",
+        "label": "工作原理",
+        "description": "我们的 AI 分析您的美食照片，识别食材和烹饪技法，生成逼真的分步烹饪教程图片。",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "食谱步骤生成器功能"
+        },
+        "items": [
+          {
+            "title": "智能食谱分析",
+            "description": "AI 从单张美食照片中识别 500+ 烹饪技法、食材和食材变化。",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "智能分析"
+            }
+          },
+          {
+            "title": "图生图生成",
+            "description": "利用先进 AI 将成品美食照片转化为逼真的分步烹饪过程图片。",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "图像生成"
+            }
+          },
+          {
+            "title": "多格式导出",
+            "description": "支持 9:16 竖版（Stories/TikTok）、16:9 横版（博客）、1:1 方形（社交动态）。PNG、JPG、WebP 格式，最高 4K 分辨率。",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "多格式导出"
+            }
+          },
+          {
+            "title": "AI 智能理解",
+            "description": "理解食材变化过程、真实烹饪时间和正确的技法顺序，呈现真实效果。",
+            "icon": "RiSparklingLine",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "AI 智能"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "usage",
+        "title": "4 步轻松创建食谱步骤",
+        "description": "从美食照片到专业烹饪教程，只需几分钟：",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "使用方法"
+        },
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "上传美食照片",
+            "description": "拖拽或选择一张成品美食照片。支持 PNG、JPG、WebP 格式，最大 5MB。",
+            "image": {
+              "src": "/imgs/features/5.png",
+              "alt": "上传照片"
+            }
+          },
+          {
+            "title": "配置参数",
+            "description": "选择步骤数量（4-8 步）、视觉风格（休闲、专业、极简、鲜艳、插画）和画面比例。",
+            "image": {
+              "src": "/imgs/features/6.png",
+              "alt": "配置参数"
+            }
+          },
+          {
+            "title": "AI 生成步骤",
+            "description": "AI 分析您的菜品，识别食材和技法，创建逼真的分步烹饪图片。",
+            "image": {
+              "src": "/imgs/features/7.png",
+              "alt": "AI 生成"
+            }
+          },
+          {
+            "title": "下载与分享",
+            "description": "逐张下载或批量下载所有步骤图片。支持多种格式，适配各平台。",
+            "image": {
+              "src": "/imgs/features/8.png",
+              "alt": "下载结果"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "features": {
+        "id": "features",
+        "title": "为美食创作者打造的强大功能",
+        "description": "创建专业食谱步骤图片所需的一切功能。",
+        "items": [
+          {
+            "title": "智能食谱分析",
+            "description": "AI 以 93-96% 的准确率识别烹饪技法、食材和菜品构成。",
+            "icon": "RiSearchEyeLine"
+          },
+          {
+            "title": "分步图片生成",
+            "description": "从单张美食照片自动生成 4-8 张逼真的烹饪步骤图片。",
+            "icon": "RiListOrdered2"
+          },
+          {
+            "title": "多格式导出",
+            "description": "支持 9:16、16:9、1:1 画面比例，PNG、JPG、WebP 格式，最高 4K 分辨率。",
+            "icon": "RiFileDownloadLine"
+          },
+          {
+            "title": "5 种视觉风格",
+            "description": "休闲、专业、极简、鲜艳、插画五种风格任你选择。",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "批量生成",
+            "description": "高效批量生成多套食谱步骤，一键下载所有结果。",
+            "icon": "RiStackLine"
+          },
+          {
+            "title": "高分辨率",
+            "description": "最高 4K 分辨率输出，满足印刷级食谱卡片和专业用途需求。",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "title": "深受美食创作者喜爱",
+        "description": "看看美食博主、厨师和内容创作者对食谱步骤生成器的评价。",
+        "items": [
+          {
+            "name": "Sarah Chen",
+            "role": "美食博主 @TastyBites",
+            "quote": "食谱步骤生成器彻底改变了我的工作流程。以前我要花几个小时拍摄每个烹饪步骤，现在只需上传成品照片，几秒钟就能得到漂亮的分步图片！",
+            "image": {
+              "src": "/imgs/avatars/1.png",
+              "alt": "sarah"
+            }
+          },
+          {
+            "name": "Marco Rossi",
+            "role": "专业厨师",
+            "quote": "AI 对烹饪技法的理解非常到位。它为我的意大利菜谱准确生成了准备、烹饪和摆盘步骤。专业风格在我的餐厅网站上效果出色。",
+            "image": {
+              "src": "/imgs/avatars/2.png",
+              "alt": "marco"
+            }
+          },
+          {
+            "name": "Emily Park",
+            "role": "Instagram 美食创作者",
+            "quote": "9:16 竖版格式非常适合我的 Instagram Stories 和 TikTok 内容。不到一个小时就能创建一周的食谱内容。太棒了！",
+            "image": {
+              "src": "/imgs/avatars/3.png",
+              "alt": "emily"
+            }
+          },
+          {
+            "name": "James Liu",
+            "role": "食谱书作者",
+            "quote": "我用 4K 输出来制作食谱书插图。质量令人惊叹——读者完全看不出是 AI 生成的。节省了数千元的美食摄影费用。",
+            "image": {
+              "src": "/imgs/avatars/4.png",
+              "alt": "james"
+            }
+          },
+          {
+            "name": "Lisa Johnson",
+            "role": "美食博客站长",
+            "quote": "自从使用食谱步骤图片后，博客流量增长了 40%。多格式导出让我轻松为桌面端和移动端读者优化内容。",
+            "image": {
+              "src": "/imgs/avatars/5.png",
+              "alt": "lisa"
+            }
+          },
+          {
+            "name": "David Kim",
+            "role": "YouTube 美食创作者",
+            "quote": "批量生成功能太省心了。几分钟就能为烹饪视频创建缩略图序列。AI 甚至能正确呈现烹饪进程！",
+            "image": {
+              "src": "/imgs/avatars/6.png",
+              "alt": "david"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "常见问题",
+        "description": "更多问题？请联系 support@recipestepgenerator.com",
+        "items": [
+          {
+            "question": "食谱步骤生成器是什么？如何使用？",
+            "answer": "食谱步骤生成器是一款 AI 驱动的工具，能将美食照片转化为专业的分步烹饪教程图片。只需上传一张成品菜肴照片，AI 会自动分析食材、烹饪技法和摆盘，生成 4-8 张逼真的烹饪步骤图片。"
+          },
+          {
+            "question": "AI 食谱分析的准确率如何？",
+            "answer": "我们的 AI 在识别烹饪技法、食材和菜品构成方面达到 93-96% 的准确率。它理解 500+ 种烹饪技法，包括烤、炒、烘焙、炖煮等，生成逼真的步骤序列。"
+          },
+          {
+            "question": "支持哪些输出格式和分辨率？",
+            "answer": "支持三种画面比例：9:16 竖版（Instagram Stories/TikTok）、16:9 横版（博客/网站）、1:1 方形（社交动态）。导出格式包括 PNG、JPG 和 WebP，分辨率最高可达 4K。"
+          },
+          {
+            "question": "生成的图片可以商业使用吗？",
+            "answer": "可以！使用食谱步骤生成器生成的所有图片均可商业使用。您可以将其用于美食博客、社交媒体、食谱书、餐厅菜单以及任何商业用途，无需署名。"
+          },
+          {
+            "question": "有免费版吗？",
+            "answer": "有！新用户可免费生成 2 套完整的食谱步骤图片，无需信用卡。之后您可以选择按次购买积分或月付/年付订阅方案。"
+          },
+          {
+            "question": "支持哪些菜系和烹饪风格？",
+            "answer": "食谱步骤生成器支持全球几乎所有菜系和烹饪风格——从意大利面到日本寿司，美式烧烤到印度咖喱。AI 经过多元化全球烹饪技法训练，能处理简单和复杂的菜谱。"
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "立即开始创建食谱步骤",
+        "description": "几秒内将美食照片转化为专业烹饪教程。无需信用卡。",
+        "buttons": [
+          {
+            "title": "免费生成食谱步骤",
+            "url": "#generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "查看价格",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "DollarSign"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}

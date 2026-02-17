@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "title": "Pricing - Recipe Step Generator",
+    "description": "Choose a plan to start generating professional recipe step images with AI."
+  },
+  "page": {
+    "title": "Recipe Step Generator Pricing",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "Pricing",
+        "description": "Choose a plan to start creating professional recipe step images with AI.",
+        "groups": [
+          {
+            "name": "one-time",
+            "title": "Pay as you go"
+          },
+          {
+            "name": "monthly",
+            "title": "Monthly",
+            "is_featured": true,
+            "label": "Most Popular"
+          },
+          {
+            "name": "yearly",
+            "title": "Annually",
+            "label": "Save 17%"
+          }
+        ],
+        "items": [
+          {
+            "title": "Starter",
+            "description": "Perfect for trying out recipe step generation.",
+            "features_title": "Includes",
+            "features": [
+              "48 credits (12 recipe generations)",
+              "Valid for 1 month",
+              "All 5 visual styles",
+              "3 aspect ratios (9:16, 16:9, 1:1)",
+              "PNG, JPG, WebP export",
+              "Basic support"
+            ],
+            "interval": "one-time",
+            "amount": 299,
+            "currency": "USD",
+            "price": "$2.99",
+            "original_price": "$5.99",
+            "unit": "",
+            "is_featured": false,
+            "tip": "50% off launch special!",
+            "button": {
+              "title": "Get Started",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter",
+            "product_name": "Recipe Step Generator Starter",
+            "credits": 48,
+            "valid_days": 30,
+            "group": "one-time"
+          },
+          {
+            "title": "Standard",
+            "description": "Best value for regular recipe creators.",
+            "label": "Popular",
+            "features_title": "Everything in Starter, plus",
+            "features": [
+              "200 credits (50 recipe generations)",
+              "Valid for 3 months",
+              "Up to 4K resolution",
+              "Batch download",
+              "Priority support"
+            ],
+            "interval": "one-time",
+            "amount": 999,
+            "currency": "USD",
+            "price": "$9.99",
+            "original_price": "$19.99",
+            "unit": "",
+            "is_featured": true,
+            "tip": "50% off launch special!",
+            "button": {
+              "title": "Get Standard",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "standard",
+            "product_name": "Recipe Step Generator Standard",
+            "credits": 200,
+            "valid_days": 90,
+            "group": "one-time"
+          },
+          {
+            "title": "Premium",
+            "description": "For professional food content creators.",
+            "features_title": "Everything in Standard, plus",
+            "features": [
+              "600 credits (150 recipe generations)",
+              "Valid for 1 year",
+              "Custom text overlays",
+              "Editable step descriptions",
+              "Premium support"
+            ],
+            "interval": "one-time",
+            "amount": 2499,
+            "currency": "USD",
+            "price": "$24.99",
+            "original_price": "$49.99",
+            "unit": "",
+            "is_featured": false,
+            "tip": "50% off launch special!",
+            "button": {
+              "title": "Get Premium",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "premium",
+            "product_name": "Recipe Step Generator Premium",
+            "credits": 600,
+            "valid_days": 365,
+            "group": "one-time"
+          },
+          {
+            "title": "Starter",
+            "description": "For casual recipe creators.",
+            "features_title": "Includes",
+            "features": [
+              "200 monthly credits (50 recipes/month)",
+              "All 5 visual styles",
+              "3 aspect ratios",
+              "PNG, JPG, WebP export",
+              "Email support"
+            ],
+            "interval": "month",
+            "amount": 999,
+            "currency": "USD",
+            "price": "$9.99",
+            "original_price": "",
+            "unit": "/ month",
+            "is_featured": false,
+            "tip": "Cancel anytime",
+            "button": {
+              "title": "Subscribe",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-monthly",
+            "product_name": "Recipe Step Generator Starter Monthly",
+            "credits": 200,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "For active food bloggers and creators.",
+            "label": "Most Popular",
+            "features_title": "Everything in Starter, plus",
+            "features": [
+              "800 monthly credits (200 recipes/month)",
+              "Up to 4K resolution",
+              "Batch download",
+              "Advanced features",
+              "Priority support"
+            ],
+            "interval": "month",
+            "amount": 1999,
+            "currency": "USD",
+            "price": "$19.99",
+            "original_price": "",
+            "unit": "/ month",
+            "is_featured": true,
+            "tip": "Most popular for food creators",
+            "button": {
+              "title": "Subscribe",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "standard-monthly",
+            "product_name": "Recipe Step Generator Standard Monthly",
+            "credits": 800,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "For professional content teams.",
+            "features_title": "Everything in Standard, plus",
+            "features": [
+              "4,000 monthly credits (1,000 recipes/month)",
+              "Custom text overlays",
+              "Editable step descriptions",
+              "All features unlocked",
+              "Dedicated support"
+            ],
+            "interval": "month",
+            "amount": 4999,
+            "currency": "USD",
+            "price": "$49.99",
+            "original_price": "",
+            "unit": "/ month",
+            "is_featured": false,
+            "tip": "Best for teams and agencies",
+            "button": {
+              "title": "Subscribe",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "premium-monthly",
+            "product_name": "Recipe Step Generator Premium Monthly",
+            "credits": 4000,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "Premium"
+          },
+          {
+            "title": "Starter",
+            "description": "For casual recipe creators.",
+            "features_title": "Includes",
+            "features": [
+              "2,400 annual credits (50 recipes/month)",
+              "All 5 visual styles",
+              "3 aspect ratios",
+              "PNG, JPG, WebP export",
+              "Email support"
+            ],
+            "interval": "year",
+            "amount": 9999,
+            "currency": "USD",
+            "price": "$8.33",
+            "original_price": "$9.99",
+            "unit": "/ month",
+            "is_featured": false,
+            "tip": "Save 17% with annual billing",
+            "button": {
+              "title": "Subscribe Yearly",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-yearly",
+            "product_name": "Recipe Step Generator Starter Annual",
+            "credits": 2400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Starter"
+          },
+          {
+            "title": "Standard",
+            "description": "For active food bloggers and creators.",
+            "label": "Most Popular",
+            "features_title": "Everything in Starter, plus",
+            "features": [
+              "9,600 annual credits (200 recipes/month)",
+              "Up to 4K resolution",
+              "Batch download",
+              "Advanced features",
+              "Priority support"
+            ],
+            "interval": "year",
+            "amount": 19999,
+            "currency": "USD",
+            "price": "$16.66",
+            "original_price": "$19.99",
+            "unit": "/ month",
+            "is_featured": true,
+            "tip": "Save 17% with annual billing",
+            "button": {
+              "title": "Subscribe Yearly",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "standard-yearly",
+            "product_name": "Recipe Step Generator Standard Annual",
+            "credits": 9600,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Standard"
+          },
+          {
+            "title": "Premium",
+            "description": "For professional content teams.",
+            "features_title": "Everything in Standard, plus",
+            "features": [
+              "48,000 annual credits (1,000 recipes/month)",
+              "Custom text overlays",
+              "Editable step descriptions",
+              "All features unlocked",
+              "Dedicated support"
+            ],
+            "interval": "year",
+            "amount": 49999,
+            "currency": "USD",
+            "price": "$41.66",
+            "original_price": "$49.99",
+            "unit": "/ month",
+            "is_featured": false,
+            "tip": "Save 17% with annual billing",
+            "button": {
+              "title": "Subscribe Yearly",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "premium-yearly",
+            "product_name": "Recipe Step Generator Premium Annual",
+            "credits": 48000,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "Premium"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "Current Plan",
+    "processing": "Processing"
+  }
+}

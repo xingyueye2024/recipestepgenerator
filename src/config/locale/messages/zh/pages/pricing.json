@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "title": "价格 - 食谱步骤生成器",
+    "description": "选择方案，开始用 AI 生成专业食谱步骤图片。"
+  },
+  "page": {
+    "title": "食谱步骤生成器价格",
+    "sections": {
+      "pricing": {
+        "id": "pricing",
+        "title": "价格",
+        "description": "选择适合您的方案，开始用 AI 创建专业食谱步骤图片。",
+        "groups": [
+          {
+            "name": "one-time",
+            "title": "按次付费"
+          },
+          {
+            "name": "monthly",
+            "title": "包月",
+            "is_featured": true,
+            "label": "最受欢迎"
+          },
+          {
+            "name": "yearly",
+            "title": "包年",
+            "label": "立省17%"
+          }
+        ],
+        "items": [
+          {
+            "title": "入门版",
+            "description": "适合体验食谱步骤生成。",
+            "features_title": "包含",
+            "features": [
+              "48 积分（12 次食谱生成）",
+              "有效期 1 个月",
+              "5 种视觉风格",
+              "3 种画面比例（9:16、16:9、1:1）",
+              "PNG、JPG、WebP 导出",
+              "基础支持"
+            ],
+            "interval": "one-time",
+            "amount": 299,
+            "currency": "USD",
+            "price": "$2.99",
+            "original_price": "$5.99",
+            "unit": "",
+            "is_featured": false,
+            "tip": "上线特惠 5 折！",
+            "button": {
+              "title": "立即购买",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter",
+            "product_name": "食谱步骤生成器入门版",
+            "credits": 48,
+            "valid_days": 30,
+            "group": "one-time"
+          },
+          {
+            "title": "标准版",
+            "description": "适合日常食谱创作者的最佳选择。",
+            "label": "热门",
+            "features_title": "包含入门版功能，此外",
+            "features": [
+              "200 积分（50 次食谱生成）",
+              "有效期 3 个月",
+              "最高 4K 分辨率",
+              "批量下载",
+              "优先支持"
+            ],
+            "interval": "one-time",
+            "amount": 999,
+            "currency": "USD",
+            "price": "$9.99",
+            "original_price": "$19.99",
+            "unit": "",
+            "is_featured": true,
+            "tip": "上线特惠 5 折！",
+            "button": {
+              "title": "获取标准版",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "standard",
+            "product_name": "食谱步骤生成器标准版",
+            "credits": 200,
+            "valid_days": 90,
+            "group": "one-time"
+          },
+          {
+            "title": "高级版",
+            "description": "适合专业美食内容创作者。",
+            "features_title": "包含标准版功能，此外",
+            "features": [
+              "600 积分（150 次食谱生成）",
+              "有效期 1 年",
+              "自定义文字覆盖",
+              "可编辑步骤描述",
+              "高级支持"
+            ],
+            "interval": "one-time",
+            "amount": 2499,
+            "currency": "USD",
+            "price": "$24.99",
+            "original_price": "$49.99",
+            "unit": "",
+            "is_featured": false,
+            "tip": "上线特惠 5 折！",
+            "button": {
+              "title": "获取高级版",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "premium",
+            "product_name": "食谱步骤生成器高级版",
+            "credits": 600,
+            "valid_days": 365,
+            "group": "one-time"
+          },
+          {
+            "title": "入门版",
+            "description": "适合休闲食谱创作者。",
+            "features_title": "包含",
+            "features": [
+              "每月 200 积分（50 次/月）",
+              "5 种视觉风格",
+              "3 种画面比例",
+              "PNG、JPG、WebP 导出",
+              "邮件支持"
+            ],
+            "interval": "month",
+            "amount": 999,
+            "currency": "USD",
+            "price": "$9.99",
+            "original_price": "",
+            "unit": "/ 月",
+            "is_featured": false,
+            "tip": "随时取消",
+            "button": {
+              "title": "订阅",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-monthly",
+            "product_name": "食谱步骤生成器入门版包月",
+            "credits": 200,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "入门版"
+          },
+          {
+            "title": "标准版",
+            "description": "适合活跃的美食博主和创作者。",
+            "label": "最受欢迎",
+            "features_title": "包含入门版功能，此外",
+            "features": [
+              "每月 800 积分（200 次/月）",
+              "最高 4K 分辨率",
+              "批量下载",
+              "高级功能",
+              "优先支持"
+            ],
+            "interval": "month",
+            "amount": 1999,
+            "currency": "USD",
+            "price": "$19.99",
+            "original_price": "",
+            "unit": "/ 月",
+            "is_featured": true,
+            "tip": "美食创作者首选",
+            "button": {
+              "title": "订阅",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "standard-monthly",
+            "product_name": "食谱步骤生成器标准版包月",
+            "credits": 800,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "标准版"
+          },
+          {
+            "title": "高级版",
+            "description": "适合专业内容团队。",
+            "features_title": "包含标准版功能，此外",
+            "features": [
+              "每月 4,000 积分（1,000 次/月）",
+              "自定义文字覆盖",
+              "可编辑步骤描述",
+              "解锁全部功能",
+              "专属支持"
+            ],
+            "interval": "month",
+            "amount": 4999,
+            "currency": "USD",
+            "price": "$49.99",
+            "original_price": "",
+            "unit": "/ 月",
+            "is_featured": false,
+            "tip": "团队和机构最佳选择",
+            "button": {
+              "title": "订阅",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "premium-monthly",
+            "product_name": "食谱步骤生成器高级版包月",
+            "credits": 4000,
+            "valid_days": 30,
+            "group": "monthly",
+            "plan_name": "高级版"
+          },
+          {
+            "title": "入门版",
+            "description": "适合休闲食谱创作者。",
+            "features_title": "包含",
+            "features": [
+              "年度 2,400 积分（50 次/月）",
+              "5 种视觉风格",
+              "3 种画面比例",
+              "PNG、JPG、WebP 导出",
+              "邮件支持"
+            ],
+            "interval": "year",
+            "amount": 9999,
+            "currency": "USD",
+            "price": "$8.33",
+            "original_price": "$9.99",
+            "unit": "/ 月",
+            "is_featured": false,
+            "tip": "年付立省 17%",
+            "button": {
+              "title": "年度订阅",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "starter-yearly",
+            "product_name": "食谱步骤生成器入门版包年",
+            "credits": 2400,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "入门版"
+          },
+          {
+            "title": "标准版",
+            "description": "适合活跃的美食博主和创作者。",
+            "label": "最受欢迎",
+            "features_title": "包含入门版功能，此外",
+            "features": [
+              "年度 9,600 积分（200 次/月）",
+              "最高 4K 分辨率",
+              "批量下载",
+              "高级功能",
+              "优先支持"
+            ],
+            "interval": "year",
+            "amount": 19999,
+            "currency": "USD",
+            "price": "$16.66",
+            "original_price": "$19.99",
+            "unit": "/ 月",
+            "is_featured": true,
+            "tip": "年付立省 17%",
+            "button": {
+              "title": "年度订阅",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "standard-yearly",
+            "product_name": "食谱步骤生成器标准版包年",
+            "credits": 9600,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "标准版"
+          },
+          {
+            "title": "高级版",
+            "description": "适合专业内容团队。",
+            "features_title": "包含标准版功能，此外",
+            "features": [
+              "年度 48,000 积分（1,000 次/月）",
+              "自定义文字覆盖",
+              "可编辑步骤描述",
+              "解锁全部功能",
+              "专属支持"
+            ],
+            "interval": "year",
+            "amount": 49999,
+            "currency": "USD",
+            "price": "$41.66",
+            "original_price": "$49.99",
+            "unit": "/ 月",
+            "is_featured": false,
+            "tip": "年付立省 17%",
+            "button": {
+              "title": "年度订阅",
+              "url": "/#pricing",
+              "icon": "RiFlashlightFill"
+            },
+            "product_id": "premium-yearly",
+            "product_name": "食谱步骤生成器高级版包年",
+            "credits": 48000,
+            "valid_days": 365,
+            "group": "yearly",
+            "plan_name": "高级版"
+          }
+        ]
+      }
+    }
+  },
+  "messages": {
+    "current_plan": "当前方案",
+    "processing": "处理中"
+  }
+}

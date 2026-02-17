@@ -1,0 +1,364 @@
+{
+  "page": {
+    "show_sections": [
+      "hero",
+      "generator",
+      "showcase",
+      "introduce",
+      "usage",
+      "features",
+      "testimonials",
+      "faq",
+      "cta"
+    ],
+    "sections": {
+      "hero": {
+        "id": "hero",
+        "title": "Turn food photos into step-by-step cooking images in seconds",
+        "highlight_text": "in seconds",
+        "description": "AI-powered recipe step generator that transforms your food photos into professional cooking instruction images.<br/>Supports 500+ cooking techniques, multiple styles, and export formats.",
+        "tip": "No credit card required - Start with 2 free recipe sets",
+        "buttons": [
+          {
+            "title": "Generate Recipe Steps Free",
+            "icon": "Zap",
+            "url": "#generator",
+            "target": "_self",
+            "variant": "default"
+          },
+          {
+            "title": "See Recipe Examples",
+            "icon": "ImageIcon",
+            "url": "#showcase",
+            "target": "_self",
+            "variant": "outline"
+          }
+        ],
+        "show_avatars": true,
+        "avatars_tip": "10,000+ food creators use Recipe Step Generator",
+        "show_award": false,
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "Recipe Step Generator Preview",
+          "width": 1200,
+          "height": 800
+        },
+        "background_image": {
+          "src": "/imgs/bg/tree.jpg",
+          "alt": "hero background"
+        }
+      },
+      "generator": {
+        "block": "recipe-generator",
+        "id": "generator"
+      },
+      "showcase": {
+        "block": "showcases-flow",
+        "id": "showcase",
+        "title": "Recipe Step Examples",
+        "description": "See how AI transforms food photos into professional step-by-step cooking instructions.",
+        "items": [
+          {
+            "title": "Grilled Steak",
+            "description": "4 steps | 16:9 landscape | Professional style",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "Grilled Steak Recipe Steps"
+            },
+            "label": "4 Steps",
+            "button": {
+              "title": "Try This"
+            }
+          },
+          {
+            "title": "Homemade Burger",
+            "description": "6 steps | 1:1 square | Casual style",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "Homemade Burger Recipe Steps"
+            },
+            "label": "6 Steps",
+            "button": {
+              "title": "Try This"
+            }
+          },
+          {
+            "title": "Pasta Carbonara",
+            "description": "5 steps | 9:16 vertical | Vibrant style",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "Pasta Carbonara Recipe Steps"
+            },
+            "label": "5 Steps",
+            "button": {
+              "title": "Try This"
+            }
+          },
+          {
+            "title": "Chocolate Cake",
+            "description": "8 steps | 16:9 landscape | Minimalist style",
+            "url": "#generator",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "Chocolate Cake Recipe Steps"
+            },
+            "label": "8 Steps",
+            "button": {
+              "title": "Try This"
+            }
+          }
+        ]
+      },
+      "introduce": {
+        "block": "features-list",
+        "id": "introduce",
+        "title": "Turn Food Photos into Professional Recipe Steps",
+        "label": "How It Works",
+        "description": "Our AI analyzes your food photos, recognizes ingredients and cooking techniques, and generates realistic step-by-step cooking instruction images.",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "Recipe Step Generator Features"
+        },
+        "items": [
+          {
+            "title": "Smart Recipe Analysis",
+            "description": "AI recognizes 500+ cooking techniques, ingredients, and transformations from a single food photo.",
+            "icon": "RiRobot2Line",
+            "image": {
+              "src": "/imgs/features/1.png",
+              "alt": "Smart Analysis"
+            }
+          },
+          {
+            "title": "Image-to-Image Generation",
+            "description": "Transform finished dish photos into realistic step-by-step cooking process images using advanced AI.",
+            "icon": "RiImage2Line",
+            "image": {
+              "src": "/imgs/features/2.png",
+              "alt": "Image Generation"
+            }
+          },
+          {
+            "title": "Multi-Format Export",
+            "description": "Export in 9:16 vertical for Stories/TikTok, 16:9 landscape for blogs, or 1:1 square for social feeds. PNG, JPG, WebP up to 4K.",
+            "icon": "RiDownload2Line",
+            "image": {
+              "src": "/imgs/features/3.png",
+              "alt": "Multi-Format Export"
+            }
+          },
+          {
+            "title": "AI Intelligence",
+            "description": "Understands ingredient transformations, realistic cooking times, and proper technique sequences for authentic results.",
+            "icon": "RiSparklingLine",
+            "image": {
+              "src": "/imgs/features/4.png",
+              "alt": "AI Intelligence"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "usage": {
+        "block": "features-step",
+        "id": "usage",
+        "title": "Create Recipe Steps in 4 Easy Steps",
+        "description": "From food photo to professional cooking instructions in minutes:",
+        "image": {
+          "src": "/imgs/features/1.png",
+          "alt": "How to use"
+        },
+        "image_position": "left",
+        "text_align": "center",
+        "items": [
+          {
+            "title": "Upload Your Food Photo",
+            "description": "Drag and drop or select a photo of your finished dish. Supports PNG, JPG, and WebP up to 5MB.",
+            "image": {
+              "src": "/imgs/features/5.png",
+              "alt": "Upload photo"
+            }
+          },
+          {
+            "title": "Configure Settings",
+            "description": "Choose step count (4-8), visual style (casual, professional, minimalist, vibrant, illustrated), and aspect ratio.",
+            "image": {
+              "src": "/imgs/features/6.png",
+              "alt": "Configure settings"
+            }
+          },
+          {
+            "title": "AI Generates Steps",
+            "description": "Our AI analyzes your dish, identifies ingredients and techniques, and creates realistic step-by-step cooking images.",
+            "image": {
+              "src": "/imgs/features/7.png",
+              "alt": "AI generates"
+            }
+          },
+          {
+            "title": "Download & Share",
+            "description": "Download individual images or batch download all steps. Export in multiple formats optimized for your platform.",
+            "image": {
+              "src": "/imgs/features/8.png",
+              "alt": "Download results"
+            }
+          }
+        ],
+        "className": "bg-muted"
+      },
+      "features": {
+        "id": "features",
+        "title": "Powerful Features for Recipe Creators",
+        "description": "Everything you need to create professional recipe step images for your food content.",
+        "items": [
+          {
+            "title": "Smart Recipe Analysis",
+            "description": "AI recognizes cooking techniques, ingredients, and dish composition with 93-96% accuracy.",
+            "icon": "RiSearchEyeLine"
+          },
+          {
+            "title": "Step-by-Step Generation",
+            "description": "Generate 4-8 realistic cooking step images from a single food photo automatically.",
+            "icon": "RiListOrdered2"
+          },
+          {
+            "title": "Multi-Format Export",
+            "description": "Export in 9:16, 16:9, or 1:1 aspect ratios. Supports PNG, JPG, WebP up to 4K resolution.",
+            "icon": "RiFileDownloadLine"
+          },
+          {
+            "title": "5 Custom Styles",
+            "description": "Choose from casual, professional, minimalist, vibrant, or illustrated visual styles.",
+            "icon": "RiPaletteLine"
+          },
+          {
+            "title": "Batch Generation",
+            "description": "Generate multiple recipe step sets efficiently and download all results at once.",
+            "icon": "RiStackLine"
+          },
+          {
+            "title": "High Resolution",
+            "description": "Generate images up to 4K resolution for print-quality recipe cards and professional use.",
+            "icon": "RiHdLine"
+          }
+        ]
+      },
+      "testimonials": {
+        "id": "testimonials",
+        "title": "Loved by Food Creators",
+        "description": "See what food bloggers, chefs, and content creators say about Recipe Step Generator.",
+        "items": [
+          {
+            "name": "Sarah Chen",
+            "role": "Food Blogger @TastyBites",
+            "quote": "Recipe Step Generator transformed my workflow. I used to spend hours photographing each cooking step. Now I just upload the final dish photo and get beautiful step-by-step images in seconds!",
+            "image": {
+              "src": "/imgs/avatars/1.png",
+              "alt": "sarah"
+            }
+          },
+          {
+            "name": "Marco Rossi",
+            "role": "Professional Chef",
+            "quote": "The AI understands cooking techniques perfectly. It generated accurate prep, cooking, and plating steps for my Italian recipes. The professional style looks amazing on my restaurant's website.",
+            "image": {
+              "src": "/imgs/avatars/2.png",
+              "alt": "marco"
+            }
+          },
+          {
+            "name": "Emily Park",
+            "role": "Instagram Food Creator",
+            "quote": "The 9:16 vertical format is perfect for my Instagram Stories and TikTok content. I can create a week's worth of recipe content in under an hour. Game changer!",
+            "image": {
+              "src": "/imgs/avatars/3.png",
+              "alt": "emily"
+            }
+          },
+          {
+            "name": "James Liu",
+            "role": "Cookbook Author",
+            "quote": "I use the 4K output for my cookbook illustrations. The quality is incredible - readers can't tell these are AI-generated. It saved me thousands in food photography costs.",
+            "image": {
+              "src": "/imgs/avatars/4.png",
+              "alt": "james"
+            }
+          },
+          {
+            "name": "Lisa Johnson",
+            "role": "Recipe Blog Owner",
+            "quote": "My blog traffic increased 40% after I started using recipe step images. The multi-format export makes it easy to optimize for both desktop and mobile readers.",
+            "image": {
+              "src": "/imgs/avatars/5.png",
+              "alt": "lisa"
+            }
+          },
+          {
+            "name": "David Kim",
+            "role": "YouTube Food Creator",
+            "quote": "The batch generation feature is a lifesaver. I create thumbnail sequences for my cooking videos in minutes. The AI even gets the cooking progression right!",
+            "image": {
+              "src": "/imgs/avatars/6.png",
+              "alt": "david"
+            }
+          }
+        ]
+      },
+      "faq": {
+        "id": "faq",
+        "title": "Frequently Asked Questions",
+        "description": "Have more questions? Contact us at support@recipestepgenerator.com",
+        "items": [
+          {
+            "question": "What is Recipe Step Generator and how does it work?",
+            "answer": "Recipe Step Generator is an AI-powered tool that transforms food photos into professional step-by-step cooking instruction images. Simply upload a photo of your finished dish, and our AI analyzes the ingredients, cooking techniques, and presentation to generate 4-8 realistic cooking step images automatically."
+          },
+          {
+            "question": "How accurate is the AI recipe analysis?",
+            "answer": "Our AI achieves 93-96% accuracy in recognizing cooking techniques, ingredients, and dish composition. It understands 500+ cooking techniques including grilling, sautéing, baking, braising, and more, producing realistic step sequences."
+          },
+          {
+            "question": "What output formats and resolutions are supported?",
+            "answer": "We support three aspect ratios: 9:16 vertical (Instagram Stories/TikTok), 16:9 landscape (blogs/websites), and 1:1 square (social media feeds). Export formats include PNG, JPG, and WebP, with resolution up to 4K for professional quality."
+          },
+          {
+            "question": "Can I use the generated images commercially?",
+            "answer": "Yes! All images generated with Recipe Step Generator are yours to use commercially. You can use them on your food blog, social media, cookbooks, restaurant menus, and any other commercial purpose without attribution."
+          },
+          {
+            "question": "Is there a free tier available?",
+            "answer": "Yes! New users get 2 complete recipe step sets for free with no credit card required. After that, you can choose from our pay-as-you-go credits or monthly/annual subscription plans."
+          },
+          {
+            "question": "What cuisines and cooking styles are supported?",
+            "answer": "Recipe Step Generator supports virtually all cuisines and cooking styles worldwide - from Italian pasta to Japanese sushi, American BBQ to Indian curry. The AI has been trained on diverse global cooking techniques and can handle both simple and complex recipes."
+          }
+        ]
+      },
+      "cta": {
+        "id": "cta",
+        "title": "Start Creating Recipe Steps Today",
+        "description": "Transform your food photos into professional cooking instructions in seconds. No credit card required.",
+        "buttons": [
+          {
+            "title": "Generate Recipe Steps Free",
+            "url": "#generator",
+            "target": "_self",
+            "icon": "Zap"
+          },
+          {
+            "title": "View Pricing",
+            "url": "/pricing",
+            "target": "_self",
+            "variant": "outline",
+            "icon": "DollarSign"
+          }
+        ],
+        "className": "bg-muted"
+      }
+    }
+  }
+}
